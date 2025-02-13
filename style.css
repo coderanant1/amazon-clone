@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+#logo{
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(amazon_logo.png);
+}
+.border{
+    border: 1.8px solid transparent;
+}
+.border:hover{
+    border: 1.8px solid white;
+}
+/* .location{
+    height: 40px;
+    padding: 10px;
+
+} */
+#Deliver{
+   
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 9px;
+}
+.locationlogo{
+    font-weight: bolder;
+    display: flex;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+.searchbar{
+    display: flex;
+    width: 900px;
+    height: 40px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+#searchbarselect{
+    width: 51px;
+    height: 40px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border: none;
+
+}
+
+.searchbar:hover{
+    border: 2px solid orange;
+    box-shadow: orange 0px 3px 8px;
+    
+}
+input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.button{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    font-size: 1.3rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+/* language */
+
+.language{
+    display: flex;
+}
+.flag{
+    background-image: url(english.png);
+    width: 21px;
+    height: 16.2px;
+    background-size: cover;
+    margin-right: 2px;
+}
+#langchange{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+.small{
+    font-size: 12px;
+}
+#account{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+.large{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cart{
+    display: flex;
+    font-size: 25px;
+}
+#cart{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+
+/** second navbar **/
+
+.secnavbar{
+    height: 39px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.all{
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 39px;
+    display: flex;
+    align-items: center;
+}
+#bars{
+    font-size: 1rem;
+    margin-right: 3px
+}
+.items{
+    display: flex;
+    width: 600px;
+    font-size: 14px;
+}
+.items p{
+    margin-left: 15px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+}
+.mainbg{
+    height: 350px;
+    background-image: url(gamebg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+    animation: imgchange;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay:6s;
+    animation-direction: alternate;
+    
+    /* animation-direction: alternate-reverse; */
+    
+
+}
+@keyframes imgchange{
+    from{
+        background-image: url(gamebg.jpg);
+
+    }
+    to{
+        background-image: url(toys.jpg);
+        
+    }
+
+}
+.content{
+    width: 98%;
+    height: 40px;
+    background-color: #f5f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.content a{
+    color: #007185;
+}
+
+/**************images section**************************/
+
+
+/***** box1 ******/
+ 
+
+.maincontent{
+    background-color: #d5dde6;
+    height: 1150px;
+    /* width: 98%; */
+    display: flex;
+    /* margin-left: 16px;
+    margin-right: 16px; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    height: 370px;
+    width: 335px;
+    background-color: white;
+    margin-top: 10px;
+    
+    padding: 20px 0px 15px;
+} 
+.contentimg1{
+    background-image: url(pc.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7.5px;
+    background-position: center ;
+}
+.box1 h2{
+    font-size: 18px;
+    margin-left: 15px;
+}
+.box1 p{
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 25px;
+    color: #007185;
+}
+
+/******* box2 box3 box4********/
+
+.contentimg2{
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7.5px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.gameimages{
+    height: 130px;
+    width: 140px;
+    background-size: cover;
+    background-position: center;
+}
+.box2 h2{
+    font-size: 18px;
+    margin-left: 15px;
+}
+.box2 p{
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #007185;
+}
+
+
+/****** box5 *******/
+.box5-small{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+}
+.box5-big{
+    width: 98%;
+    height: 172px;
+}
+.contentimg3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7.5px;
+    justify-content: space-evenly;
+    
+}
+
+
+
+/****** box9 *******/
+
+.box9{
+    background-color: white;
+    width: 97%;
+    height: 280px;
+    /* padding: 10px 20px; */
+
+}
+.box9 h2{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.contentimg4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gameimages9{
+    height: 200px;
+    width: 180px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/****** footer *********/
+
+
+.firstfoot{
+    height: 50px;
+    background-color: #046779;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstfoot p{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.secondfoot{
+    height: 480px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 0.85rem;
+    
+}
+.infobox{
+    margin-top: 30px;
+
+}
+/* #logotitle{
+    border: 1px solid white;
+    border-radius: 5px;
+} */
+
+
+
+
+
+@media (max-width: 600px){
+    .navbar{
+    height: 60px;
+    width: 240%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 60px;
+    width: 114px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    height: 50px;
+    width: 114px;
+    
+}
+.searchbar {
+    display: flex
+;
+    width: 439px;
+    height: 35px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    justify-content: flex-end;
+}
+#searchbarselect {
+    width: 43px;
+    height: 30px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border: none;
+}
+input {
+    width: 345px;
+    border: none;
+    font-size: 1rem;
+}
+.secnavbar {
+    height: 39px;
+    width: 240%;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.mainbg{
+    height: 259px;
+    width: 240%;
+}
+.maincontent{
+    width: 240%;
+    height: 1737px;
+}
+.box{
+    height: 420px;
+    width: 306px;
+}
+.contentimg2 {
+    height: 274px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 34.5px;
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.gameimages {
+    height: 115px;
+    width: 128px;
+    background-size: cover;
+}
+.gameimages9 {
+    height: 162px;
+    width: 126px;
+    background-size: cover;
+    background-position: center;
+}
+.contentimg4{
+    margin-top: 26px;
+}
+.firstfoot{
+    width: 240%;
+}
+.secondfoot{
+    width: 240%;
+}
+
+
+}
+
+    
+
+
